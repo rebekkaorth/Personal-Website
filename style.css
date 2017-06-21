@@ -1,0 +1,306 @@
+
+main {
+
+    margin: 0 auto;
+    background-color: #FFF;
+
+}
+
+.menu {
+    background-color: lightgray;
+}
+
+.startImage {
+
+    margin: 0 auto;
+
+}
+
+ /*.startImage img {
+    width: 100%;
+    height: auto;
+    position: relative;
+} */
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/yossemite4.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 13%;
+    padding-bottom: 13%;
+
+}
+
+section {
+
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 3% 0;
+    min-height: 300px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+h4 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.description {
+    text-align: left;
+    margin: auto 0;
+}
+
+.skill-logo {
+    width: 50%;
+    height: auto;
+}
+
+.link-icon {
+    width: 50px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.jumbotron img {
+    width: 50px;
+    height: auto;
+    margin: 0 40px;
+}
+
+.jobRows {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.jobs-icon {
+    width: 50%;
+    height: auto;
+}
+
+.jobCol {
+    margin: auto 0;
+}
+
+.card {
+    width: 30%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.card-icon {
+    margin: 20px auto;
+    width: 90%;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+.button {
+    padding: 200px;
+}
+
+.bar-design {
+    margin-top: 100px;
+}
+
+.lang-img {
+    width: 75px;
+    height: 75px;
+}
+
+.skillDes {
+    margin: auto 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .skillDes {
+        text-align: center;
+    }
+
+    .description {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .skill-logo {
+        width: 30%;
+    }
+
+    .jobs-icon {
+        width: 40%;
+        padding-bottom: 20px;
+    }
+
+    .jumbotron {
+        margin-bottom: 50px;
+    }
+
+    .jumbotron img {
+        margin: 0 20px;
+    }
+
+    .card {
+        width: 60%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .skillDes {
+        text-align: center;
+    }
+
+    .description {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .skill-logo {
+        width: 20%;
+    }
+
+    .jobs-icon {
+        width: 30%;
+        padding-bottom: 20px;
+    }
+
+    .jumbotron {
+        margin-bottom: 50px;
+    }
+
+    .jumbotron img {
+        width: 35px;
+        margin: 0 20px;
+    }
+
+    .link-icon {
+        width: 35px;
+        margin: 0 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .skillDes {
+        text-align: center;
+    }
+
+    .description {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .skill-logo {
+        width: 30%;
+    }
+
+    .jobs-icon {
+        width: 30%;
+        padding-bottom: 20px;
+    }
+
+    .jumbotron {
+        margin-bottom: 50px;
+    }
+
+    .jumbotron img {
+        width: 35px;
+        margin: 0 10px;
+    }
+
+    .link-icon {
+        width: 35px;
+        margin: 0 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .lang-img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}

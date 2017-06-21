@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Rebekka Orth">
+    <meta name="date" content="2017-04-24T08:49:37+02:00">
+    <meta name="publisher" content="Rebekka Orth">
+    <meta name="keywords" lang="de" content="Rebekka, Orth, Media, Management, design, UX, UI, Produktmanagement, Webdevelopment, Software">
+    <meta name="keywords" lang="en" content="Rebekka, Orth, media, management, design, UX, UI, product, webdevelopment, software">
+    <meta name="description" content="official website of Rebekka Orth. Find out who Rebekka is, what she did and what she is doing at the moment.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html">
+    <meta http-equiv="content-language" content="English">
+    <meta name="format-detection" content="telephone=yes">
+
+    <title>Rebekka Orth</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<main>
+
+    <nav class="navbar navbar-toggleable-md navbar-light sticky-top navbar bg-faded menu">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#start">Rebekka Orth</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#About Me">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a onclick="scrollToSkills()" class="nav-link page-scroll" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#jobs">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+
+                <li class="nav-item">
+                    <a onclick="$('#mywork').animatescroll({scrollSpeed:2000,easing:'easeInOutSine'});" class="nav-link"
+                       href="#mywork">My Work</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="startImage" id="start">
+        <!--  <img src="img/yossemite4.JPG" alt="yosemite national"/> -->
+
+
+        <div class="jumbotron">
+
+            <h1 class="display-3 text-white">Hi, I'm Rebekka!</h1>
+            <h3 class="lead text-white"> media manager and future software developer</h3>
+            <hr class="my-4">
+
+            <a href="https://www.linkedin.com/in/rebekka-orth-388aba93/" target="_blank">
+                <img src="img/linkedin.png" alt="linkedin" class="link-icon2"/>
+            </a>
+
+            <a href="https://twitter.com/bekkileinchen" target="_blank">
+                <img src="img/twitter.png" alt="twitter" class="link-icon2"/>
+            </a>
+
+            <a href="https://www.xing.com/profile/Rebekka_Orth?sc_o=mxb_p" target="_blank">
+                <img src="img/xing.png" alt="xing" class="link-icon2"/>
+            </a>
+
+            <a href="https://github.com/bekki094" target="_blank">
+                <img src="img/github.png" alt="github" class="link-icon2"/>
+            </a>
+        </div>
+    </div>
+
+
+    <section id="About Me" class="aboutMe" data-section-name="aboutMe">
+
+        <h1>About Me</h1>
+        <p class="aboutText">I currently live near Frankfurt, Germany and will move to Glasgow in September 2017 to
+            pursue my
+            master's
+            degree in Information Technology. I hold a bachelor's degree in media management and worked at Apple
+            Retail
+            Germany and paydirekt during my studies. Besides working on own software projects I enjoy playing
+            soccer,
+            riding my Mountainbike and running. If you want to know more about my projects check out my
+            <a href="#mywork">portfolio</a> and if you want to get in contact with me, write me an e-mail or
+            connect
+            with me on social media.</p>
+
+
+    </section>
+
+    <section id="skills" class="skills" data-section-name="skills">
+
+        <h1>Skills</h1>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <img src="img/html-css-2.png" alt="html+css" class="skill-logo"/>
+
+            </div>
+            <div class="col-sm-3 description skillDes">
+                <p>Web Design <br>
+                    <i></i>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <img src="img/jquery-js.png" alt="javascript-jquery" class="skill-logo"/>
+
+            </div>
+            <div class="col-sm-3 description skillDes">
+                <p>Web Development <br>
+                    <i></i>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <img src="img/psd-indesign.png" alt="psd-indesign" class="skill-logo"/>
+
+            </div>
+            <div class="col-sm-3 description skillDes">
+                <p>Graphic Design <br>
+                    <i>image processing and layout design</i>
+                </p>
+            </div>
+
+        </div>
+        <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <img src="img/xd-sketch.png" alt="xd-sketch" class="skill-logo"/>
+
+            </div>
+            <div class="col-sm-3 description skillDes">
+                <p>UX/ UI Design <br>
+                    <i>prototyping and UX architecture</i>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+        </div>
+    </section>
+
+    <section id="jobs" class="jobs" data-section-name="jobs">
+        <h1>Jobs and Internships</h1>
+
+        <h2>Jobs</h2>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3  jobCol">
+                <a href="https://www.paydirekt.de" target="_blank">
+                    <img src="img/paydirekt_logo.png" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>paydirekt GmbH</h6>
+                <p>Working student Product Management</p>
+                <p><i>September 2016 - March 2017</i></p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 jobCol">
+                <a href="https://www.apple.com" target="_blank">
+                    <img src="img/apple.png" alt="apple" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>Apple Retail Germany B.V. & Ko KG</h6>
+                <p>Specialist</p>
+                <p><i>September 2014 - August 2016</i></p>
+
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 jobCol">
+                <a href="https://www.e-breuninger.de/en/" target="_blank">
+                    <img src="img/Breuninger-Logo.svg.png" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>E. Breuninger GmbH</h6>
+                <p>Shop assistant</p>
+                <p><i>December 2013 - January 2014</i></p>
+
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 jobCol">
+                <a href="http://www.hugendubel.info/home?CSPCHD=000001000000117agkun4p0000uqjyQk$8KgBT$BuYzzT2FA--"
+                   target="_blank">
+                    <img src="img/hugendubel.png" alt="hugendubel" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>Hugendubel Fachinformation GmbH</h6>
+                <p>Warehouse assistant</p>
+                <p><i>July 2013 - August 2013</i></p>
+
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 jobCol">
+                <a href="https://www.runnerspoint.com/en/homepage" target="_blank">
+                    <img src="img/runnerspoint.png" alt="runnerspoint" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>Runners Point GmbH</h6>
+                <p>Shop assistant</p>
+                <p><i>August 2012 - May 2013</i></p>
+
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <h2>Internships</h2>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 jobCol">
+                <a href="https://emily-london.com" target="_blank">
+                    <img src="img/emily-london.png" alt="EmilyLondonHats" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>Emily London Hats</h6>
+                <p>Marketing and Brandmanagement</p>
+                <p><i>July 2015 - September 2015</i></p>
+
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 jobCol">
+                <a href="https://www.commerzbank.de/portal/en/englisch/english.html" target="_blank">
+                    <img src="img/commerzbank.png" alt="Commerzbank" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>Commerzbank AG</h6>
+                <p>IT</p>
+                <p><i>June 2011</i></p>
+
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 jobCol">
+                <a href="https://www.hofheim.de/en/index.php" target="_blank">
+                    <img src="img/citycouncil.png" alt="citycouncil" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>City Council Hofheim </h6>
+                <p>Different departments</p>
+                <p><i>April 2009</i></p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+    </section>
+
+    <section id="education" class="education" data-section-name="education">
+
+        <h1>Education</h1>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <a href="http://www.gla.ac.uk" target="_blank">
+                    <img src="img/uni_glasgow_logo.png" alt="university-of-glasgow" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>MSc. of Information Technology</h6>
+                <p>University of Glasgow</p>
+                <p><i>2017-2018</i></p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <a href="https://www.hs-rm.de/en/" target="_blank">
+                    <img src="img/Hochschule_RheinMain.png" alt="rhein-mainuniversity" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>B.A. Media Management</h6>
+                <p>RheinMain University</p>
+                <p><i>2014-2017</i></p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <a href="https://www.uni-greifswald.de/en/" target="_blank">
+                    <img src="img/unigreifswald.png" alt="UniversityofGreifswald" class="jobs-icon"/>
+                </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>B.A. Communication studies & economics</h6>
+                <p>University of Greifswald</p>
+                <p><i>2013-2014</i></p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+        <div class="row jobRows">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+              <a href="http://www.eichendorffschule.net" target="_blank">
+                  <img src="img/eds.png" alt="Eichendorffschule" class="jobs-icon"/>
+              </a>
+            </div>
+            <div class="col-sm-3 description">
+                <h6>Allgemeine Hochschulreife (A-levels)</h6>
+                <p>Eichendorffschule/ Ts.</p>
+                <p><i>class of 2013</i></p>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+
+        <h4>languages</h4>
+
+
+        <div class="row">
+            <div class="col-sm-4"></div>
+
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="img/germany.png" class="lang-img" alt="german"/>
+                        <p>German <br>
+                            <i>1st language</i>
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <img src="img/usa.png" class="lang-img" alt="english"/>
+                        <p>English <br>
+                            <i>C1 Level</i>
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <img src="img/spain.png" class="lang-img" alt="spanish"/>
+                        <p>Spanish <br>
+                            <i>B1 Level</i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+
+    </section>
+
+    <section id="mywork" class="mywork" data-section-name="myWork">
+        <h1>My Own Projects</h1>
+
+        <div class="card">
+            <img class="card-img-top card-icon" src="img/header_bild.png" alt="zahnarztpraxis-schorch">
+            <div class="card-block">
+                <h4>Oliver Schorch Website</h4>
+                <p class="card-text">Redesign and -development of the offical homepage of the dental practice of
+                    Oliver
+                    Schorch</p>
+                <a href="https://www.zahnarztpraxis-schorch.de" class="btn btn-primary">Visit website</a>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+
+        <a href="mailto:business@rorth.de">
+            <img src="img/mail-icon.png" alt="e-mail" class="link-icon"/>
+        </a>
+
+        <a href="https://www.linkedin.com/in/rebekka-orth-388aba93/" target="_blank">
+            <img src="img/linkedin.png" alt="linkedin" class="link-icon"/>
+        </a>
+
+
+        <a href="https://www.xing.com/profile/Rebekka_Orth?sc_o=mxb_p" target="_blank">
+            <img src="img/xing.png" alt="xing" class="link-icon"/>
+        </a>
+
+
+        <a href="https://github.com/bekki094" target="_blank">
+            <img src="img/github.png" alt="github" class="link-icon"/>
+        </a>
+
+        <p> copyright 2017 by Rebekka Orth | All rights reserved </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</main>
+
+</body>
+
+</html>
