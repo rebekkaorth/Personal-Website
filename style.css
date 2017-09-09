@@ -94,7 +94,7 @@ h4 {
 }
 
 .card {
-    width: 30%;
+    width: 80%;
     height: auto;
     margin: 30px auto;
 }
@@ -111,7 +111,6 @@ footer {
     padding-bottom: 10px;
     text-align: center;
     background-color: lightgray;
-}
 }
 
 footer p {
@@ -133,6 +132,11 @@ footer p {
 
 .skillDes {
     margin: auto 0;
+}
+
+.appScreenshots {
+    width: 50%;
+
 }
 
 @media screen and (max-width: 768px) {
