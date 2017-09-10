@@ -13,12 +13,20 @@ $(document).ready(function(){
         var target = this.hash;
         var $target = $(target);
 
-        let percentage = 0.01 ;
-        // console.log(($(document).height()));
-        if (($(document).width() < 574)) {
-            percentage = 0.036;
-            // console.log(($(document).height() * percentage));
+        var percentage = 0.00;
+
+        if (576 < $(document).width() < 991) {
+            percentage = 0.045;
         }
+
+        if (377 < $(document).width() < 575) {
+            percentage = 0.036;
+        }
+
+        if ($(document).width() < 376) {
+            percentage = 0.046;
+        }
+
 
         $('body, html').stop().animate({
             'scrollTop': $(target).offset().top - ($(document).height() * percentage)
